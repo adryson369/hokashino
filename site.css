@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('https://cdn.wallpapersafari.com/16/16/uUIfGi.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6); /* fundo escuro semi-transparente */
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border: 2px solid rgb(168, 10, 155);
+}
+
+h1 {
+  font: italic;
+  margin: 5px 0;
+  font-size: 24px;
+}
+
+.link {
+  display: block;
+  margin: 10px auto;
+  padding: 12px 20px;
+  width: 80%;
+  max-width: 400px;
+  border: 2px solid rgb(166, 64, 230);
+  border-radius: 25px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  transition: background 0.3s, color 0.3s;
+}
+
+.link:hover {
+  background: rgb(60, 47, 242);
+  color: black;
+}
